@@ -11,6 +11,14 @@ export default function Navbar(){
             <br/>
             <Link to ="/tasksMenu">Tasks Menu</Link>
             <br/>
+            <Link to ="/tasks/new">Create Task</Link>
+            <br />
+            <Link to ="/profile">Profile</Link>
+            <br />
+            <Link to ="/setting">Settings</Link>
+            <br />
+            <Link to ="/reports">Report</Link>
+            <br />
             <Link to ="/about">About</Link>
         </nav>
     );
