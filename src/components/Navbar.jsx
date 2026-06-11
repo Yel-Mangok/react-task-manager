@@ -13,6 +13,8 @@ export default function Navbar(){
             <br/>
             <Link to ="/tasks/new">Create Task</Link>
             <br />
+            <Link to ="/notifications">Notifications</Link>
+            <br />
             <Link to ="/profile">Profile</Link>
             <br />
             <Link to ="/setting">Settings</Link>
