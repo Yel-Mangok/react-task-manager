@@ -6,9 +6,13 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Tasks from "./pages/Tasks";
+import Reports from "./pages/Reports";
+import Profile from "./pages/Profile";
+import TasksMenu from "./pages/TasksMenu";
 import TaskDetails from "./pages/TaskDetails";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
+import Settings from "./pages/Settings";
 
 export default function App() {
   return (
@@ -32,9 +36,29 @@ export default function App() {
             element={<Tasks />}
           />
 
+            <Route 
+            path="/reports"
+            element={<Reports />}
+          />
+
+          <Route 
+            path="/profile"
+            element={<Profile />}
+          />
+
+          <Route 
+            path="/settings"
+            element={<Settings />}
+          />
+
           <Route 
             path="/tasks/:id" 
             element={<TaskDetails />}
+          />
+
+            <Route 
+            path="/tasksMenu"
+            element={<TasksMenu />}
           />
 
           <Route 
