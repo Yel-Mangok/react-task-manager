@@ -8,6 +8,7 @@ import Dashboard from "./pages/Dashboard";
 import Tasks from "./pages/Tasks";
 import Reports from "./pages/Reports";
 import Profile from "./pages/Profile";
+import Team from "./pages/Team";
 import TasksMenu from "./pages/TasksMenu";
 import CreateTask from "./pages/CreateTask";
 import TaskDetails from "./pages/TaskDetails";
@@ -46,6 +47,11 @@ export default function App() {
           <Route 
             path="/profile"
             element={<Profile />}
+          />
+
+            <Route 
+            path="/team"
+            element={<Team />}
           />
 
           <Route 
