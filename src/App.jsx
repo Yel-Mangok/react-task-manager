@@ -17,7 +17,7 @@ import NotFound from "./pages/NotFound";
 import Notifications from "./pages/Notifications";
 import Activity from "./pages/Activity";
 import Settings from "./pages/Settings";
-
+import Help from "./pages/Help";
 export default function App() {
   return (
     <>
@@ -88,6 +88,11 @@ export default function App() {
           <Route 
             path="/about"
             element={<About />}
+          />
+
+           <Route 
+            path="/help"
+            element={<Help />}
           />
 
           <Route 
