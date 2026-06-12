@@ -15,6 +15,8 @@ export default function Navbar(){
             <br />
             <Link to ="/notifications">Notifications</Link>
             <br />
+             <Link to ="/activities">Activities</Link>
+            <br />
             <Link to ="/profile">Profile</Link>
             <br />
             <Link to ="/team">Team</Link>
